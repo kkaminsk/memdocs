@@ -92,7 +92,7 @@ This issue can occur if the configured Azure Active Directory (Azure AD) applica
 1. Go to **Settings**, and select **Management tools**.
 1. If the application isn't listed, select **Add a management tool**. Then search by name and select the Azure AD application associated with the same ClientID as Configuration Manager.
 1. If the status doesn't show **Active**, then select **Activate** in the **Action** section.
-1. In the Configuration Manager console, go to the **Administration** workspace, expand **Cloud Services**, and select the **Microsoft Store for Business** node. Synchronize with the store, or wait for the next sync interval to occur.
+1. In the Configuration Manager console, go to the **Administration** workspace, expand **Azure Services**, and right click the **Microsoft Store for Business** node. Select Synchronize with the store, or wait for the next sync interval to occur.
 
 > [!Tip]
 > To find the ClientID in Configuration Manager:
