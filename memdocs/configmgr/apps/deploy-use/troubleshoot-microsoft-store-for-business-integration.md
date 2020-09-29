@@ -29,7 +29,7 @@ In the Configuration Manager console, go to the **Monitoring** workspace, expand
 
 ### Sync status
 
-In the Configuration Manager console, go to the **Administration** workspace, expand **Cloud Services**, and select the **Microsoft Store for Business** node. Check the **Last Sync Status** column.
+In the Configuration Manager console, go to the **Administration** workspace, expand **Cloud Services**, and select **Azure Services**. Next select the the **Microsoft Store for Business** node and check the **Last Sync Status** column in the **Summary** pane.
 
 ### View synchronized apps
 
@@ -92,7 +92,7 @@ This issue can occur if the configured Azure Active Directory (Azure AD) applica
 1. Go to **Settings**, and select **Management tools**.
 1. If the application isn't listed, select **Add a management tool**. Then search by name and select the Azure AD application associated with the same ClientID as Configuration Manager.
 1. If the status doesn't show **Active**, then select **Activate** in the **Action** section.
-1. In the Configuration Manager console, go to the **Administration** workspace, expand **Cloud Services**, and select the **Microsoft Store for Business** node. Synchronize with the store, or wait for the next sync interval to occur.
+1. In the Configuration Manager console, go to the **Administration** workspace, expand **Cloud Services**, then select **Azure Services**. Select the **Microsoft Store for Business** node and select **Sync from Microsoft Store for Business** from the ribbon, or wait for the next sync interval to occur.
 
 > [!Tip]
 > To find the ClientID in Configuration Manager:
@@ -121,8 +121,8 @@ This issue can occur if the connected app no longer exists in Azure AD.
 
 Delete and recreate the connection to the Microsoft Store for Business and Education.
 
-1. In the Configuration Manager console, go to the **Administration** workspace, expand **Cloud Services**, and select the **Microsoft Store for Business** node.
-1. Select the existing connection.
+1. In the Configuration Manager console, go to the **Administration** workspace, expand **Cloud Services**, and select the **Azure Services** node. 
+1. Select the **Microsoft Store for Business** Azure service.
 1. Select **Delete** in the ribbon.
 
 Then recreate the connection. For more information, see the following articles:
